@@ -44,10 +44,10 @@ const CustomComponent = () => {
             Open-source
           </h1>
           <h2 className="font-semibold text-5xl md:text-6xl lg:text-7xl">
-            <span className="text-highlight">Learning hub</span>
+            <span className="text-highlight">Plataforma de cursos & Comunidades</span>
           </h2>
           <h3 className="font-semibold text-5xl md:text-6xl lg:text-7xl">
-            for NGO&apos;s.
+            Para ONG&apos;s.
           </h3>
         </div>
         <motion.p
@@ -56,15 +56,14 @@ const CustomComponent = () => {
           transition={{ duration: 0.8 }}
           className={`text-xl md:text-2xl lg:text-3xl max-w-3xl mb-6 ${showText ? 'visible' : 'hidden'}`}
         >
-          Empowering NGOs to help more people in Brazil spread knowledge.
-        </motion.p>
+Multiplicando Conhecimento, Transformando o Brasil: Sonhando Grande com ONGs Brasileiras.        </motion.p>
         <motion.button
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className={`relative bg-highlight hover:bg-highlight-dark text-white font-semibold py-3 px-6 rounded-full transition duration-300 ease-in-out ${showText ? 'visible' : 'hidden'}`}
         >
-          <span className="text-highlight">Join Waitlist</span>
+          <span className="text-highlight">Acesse aqui a Lista de Espera </span>
           <span className="border-highlight border-2 absolute top-0 left-0 w-full h-full rounded-full opacity-50 animate-pulse"></span>
         </motion.button>
       </motion.div>
